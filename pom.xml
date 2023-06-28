@@ -170,6 +170,12 @@
                 <version>${ruoyi.version}</version>
             </dependency>
 
+            <!-- SpringBoot Websocket -->
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-websocket</artifactId>
+                <version>2.5.14</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 
