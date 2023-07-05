@@ -99,6 +99,6 @@ public class WebSocketServer
     {
         String msg = message.replace("你", "我").replace("吗", "");
         System.out.println(msg);
-        WebSocketUsers.sendMessageToUserByText(session, "啊实打实打算大苏打打算阿萨");
+        WebSocketUsers.sendMessageToUserByText(session, message);
     }
 }
